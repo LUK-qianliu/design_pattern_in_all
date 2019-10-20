@@ -1,0 +1,16 @@
+package com.qianliu.creational.builder;
+
+public class Main {
+    public static void main(String[] args) {
+        CourseBuilder courseBuilder = new CourseActualBuilder();
+        Teacher coach = new Teacher();
+        coach.setCourseBuilder(courseBuilder);
+
+        Course course = coach.makeCourse("Java设计模式精讲",
+                "Java设计模式精讲PPT",
+                "Java设计模式精讲视频",
+                "Java设计模式精讲手记",
+                "Java设计模式精讲问答");
+        System.out.println(course);
+    }
+}
