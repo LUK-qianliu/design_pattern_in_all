@@ -1,6 +1,8 @@
 package com.qianliu.structural.decorator.v1;
 
-
+/**
+ * 煎饼
+ */
 public class Battercake {
     protected String getDesc(){
         return "煎饼";

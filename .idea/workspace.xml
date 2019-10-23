@@ -2,17 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ada2afd-1b82-422c-ae72-27e91c2fbc77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/GiftExchangeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/QualifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/ShippingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ABCBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/DepositAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ICBCBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CatalogComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CourseCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/ABattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/SausageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEgg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/Battercake.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/Battercake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/BattercakeWithEgg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/BattercakeWithEgg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,9 +65,9 @@
     <session id="2045505638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -36,20 +75,23 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,36 +100,42 @@
           <entry key="Main" value="1" />
           <entry key="V2" value="1" />
           <entry key="abstractfactory" value="1" />
+          <entry key="bridge" value="2" />
           <entry key="builder" value="1" />
-          <entry key="class" value="13" />
+          <entry key="class" value="15" />
+          <entry key="classadapter" value="1" />
           <entry key="dependenceinversion" value="3" />
           <entry key="facade" value="1" />
           <entry key="factory" value="1" />
-          <entry key="java" value="119" />
+          <entry key="flyweight" value="1" />
+          <entry key="java" value="221" />
+          <entry key="objectadapter" value="1" />
           <entry key="openclose" value="1" />
+          <entry key="proxy" value="1" />
           <entry key="samplefactory" value="2" />
           <entry key="singleresponsibility" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="v2" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="119" />
-          <entry key="UML" value="14" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="221" />
+          <entry key="UML" value="21" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3152" />
-          <entry key="xml" value="94" />
+          <entry key="java" value="4011" />
+          <entry key="xml" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3152" />
-          <entry key="XML" value="94" />
+          <entry key="JAVA" value="4011" />
+          <entry key="XML" value="105" />
         </counts>
       </usages-collector>
     </session>
@@ -98,10 +146,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="57">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -120,6 +168,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>object0</find>
+      <find>invoke</find>
+      <find>agr</find>
+      <find>arg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,57 +179,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/samplefactory/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/factory/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/factory/JavaVideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/factory/VideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/factory/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/factory/PythonVideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/Article.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/Video.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/JavaVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/Code.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/JavaCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/PythinCourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/PythonCourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/PyhonCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/JavaCourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/abstractfactory/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/CourseBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/CourseActualBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/V2/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/V2/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/LazyDoubleCheckSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/StaticInnerClassSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/EnumInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/ContainerSongleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/T.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/ThreadLocalSongleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/MailUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/Mail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/clone/Pig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/clone/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointGifts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/QualifyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointsPaymentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointPaymentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/ShippingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/GiftExchangeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEgg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/ABattercake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/Battercake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/SausageDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/AbstractDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/EggDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v2/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/classadapter/ConcreteTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/ConcreteTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/EmployeeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CatalogComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CourseCatalog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/SavingAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ABCBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/DepositAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ICBCBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DataSourceContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" />
       </list>
     </option>
   </component>
@@ -207,7 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,50 +302,40 @@
               <item name="qianliu" type="462c0819:PsiDirectoryNode" />
               <item name="structural" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern_in_all" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qianliu" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="enum&#9;FILE&#9;jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Enum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571636150757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571839718183" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\decorator" />
-      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\facade" />
-      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\creational\prototype" />
-      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\creational\songleton" />
-      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\creational\builder\V2" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qianliu.creational.abstractfactory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qianliu.creational.songleton" />
       <recent name="com.qianliu.dependenceinversion" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.qianliu.creational.abstractfactory" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\proxy" />
+      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\bridge" />
+      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\composite" />
+      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\flyweight" />
+      <recent name="E:\IDEA\design_pattern\design_pattern_in_all\src\main\java\com\qianliu\structural\adapter\objectadapter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,13 +350,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (5)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.creational.prototype.clone.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.composite.Test" />
       <module name="design_pattern_in_all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.creational.prototype.clone.*" />
+          <option name="PATTERN" value="com.qianliu.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +364,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.creational.songleton.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.proxy.dynamicproxy.Test" />
       <module name="design_pattern_in_all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.creational.songleton.*" />
+          <option name="PATTERN" value="com.qianliu.structural.proxy.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +378,11 @@
       </method>
     </configuration>
     <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.facade.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.bridge.Test" />
       <module name="design_pattern_in_all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.structural.facade.*" />
+          <option name="PATTERN" value="com.qianliu.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +391,11 @@
       </method>
     </configuration>
     <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.decorator.v1.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.proxy.staticproxy.Test" />
       <module name="design_pattern_in_all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.structural.decorator.v1.*" />
+          <option name="PATTERN" value="com.qianliu.structural.proxy.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,11 +404,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.creational.prototype.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.qianliu.structural.flyweight.Test" />
       <module name="design_pattern_in_all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.creational.prototype.*" />
+          <option name="PATTERN" value="com.qianliu.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,19 +417,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -434,16 +475,24 @@
       <workItem from="1571571629644" duration="4374000" />
       <workItem from="1571633093818" duration="372000" />
       <workItem from="1571633478513" duration="2017000" />
+      <workItem from="1571655639757" duration="3108000" />
+      <workItem from="1571665405532" duration="3554000" />
+      <workItem from="1571706228005" duration="1336000" />
+      <workItem from="1571721180039" duration="3213000" />
+      <workItem from="1571744364375" duration="4937000" />
+      <workItem from="1571793106682" duration="1214000" />
+      <workItem from="1571830481320" duration="5400000" />
+      <workItem from="1571838976032" duration="522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60201000" />
+    <option name="totallyTimeSpent" value="83485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.20314842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.19715142" />
       <window_info id="Structure" order="1" sideWeight="0.5008104" side_tool="true" weight="0.24962519" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,8 +500,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5008104" side_tool="true" weight="0.24962519" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3538961" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36525974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,6 +512,39 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32792208" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962519" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.19415292" />
+      <window_info id="Structure" order="1" sideWeight="0.5008104" side_tool="true" weight="0.24962519" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008104" side_tool="true" weight="0.24962519" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.36525974" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32792208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,7 +554,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -507,6 +589,80 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>709</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>728</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>738</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>718</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>814</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/event/EventListenerSupport.class</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/spi/orbutil/proxy/CompositeInvocationHandlerImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/Test.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java</url>
+          <line>92</line>
+          <properties class="java.lang.reflect.InvocationHandler" method="invoke">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -515,45 +671,28 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/V2/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/builder/V2/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.qianliu.creational.builder.V2">
+    <entry file="uml://JAVA/com.qianliu.structural.adapter.objectadapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>com.qianliu.creational.builder.V2</OriginalElement>
+          <OriginalElement>com.qianliu.structural.adapter.objectadapter</OriginalElement>
           <nodes>
-            <node x="51.0" y="0.0">com.qianliu.creational.builder.V2.Course</node>
-            <node x="347.0" y="0.0">com.qianliu.creational.builder.V2.Test</node>
-            <node x="0.0" y="244.0">com.qianliu.creational.builder.V2.Course.CourseBuilder</node>
+            <node x="" y="">com.qianliu.structural.adapter.objectadapter.Test</node>
+            <node x="" y="">com.qianliu.structural.adapter.objectadapter.Target</node>
+            <node x="" y="">com.qianliu.structural.adapter.objectadapter.Adapter</node>
+            <node x="" y="">com.qianliu.structural.adapter.objectadapter.Adaptee</node>
+            <node x="" y="">com.qianliu.structural.adapter.objectadapter.ConcreteTarget</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.qianliu.creational.builder.V2.Course.CourseBuilder" target="com.qianliu.creational.builder.V2.Course">
-              <point x="0.0" y="-142.5" />
-              <point x="0.0" y="97.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="261.0" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="143.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -567,380 +706,461 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/LazyDoubleCheckSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" selection-start-line="5" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="524" selection-start-line="524" selection-end-line="524" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="1653" selection-start-line="1653" selection-end-line="1653" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/ObjectStreamConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/ObjectStreamClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1136" column="30" selection-start-line="1136" selection-start-column="19" selection-end-line="1136" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/StaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar!/com/google/j2objc/annotations/AutoreleasePool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="72" selection-start-line="10" selection-start-column="51" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/dependenceinversion/CCourse.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/dependenceinversion/ICourse.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/dependenceinversion/JavaCourse.class" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36024">
-          <caret line="1946" column="28" selection-start-line="1946" selection-start-column="20" selection-end-line="1946" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/creational/songleton/HungrySingleton.class" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="405" column="45" selection-start-line="405" selection-start-column="45" selection-end-line="405" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="2359" column="17" selection-start-line="2359" selection-start-column="17" selection-end-line="2359" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/creational/songleton/StaticInnerClassSingleton.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/creational/songleton/T.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/creational/songleton/LazySingleton.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/qianliu/creational/songleton/EnumInstance.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/ConcreteTarget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="24" />
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/EnumInstance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" lean-forward="true" selection-start-line="1" selection-end-line="26" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/adapter/objectadapter/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/ContainerSongleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" selection-start-line="18" selection-start-column="76" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/ThreadLocalSongleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/clone/Pig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/prototype/clone/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/creational/songleton/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointGift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/QualifyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/PointPaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/ShippingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/GiftExchangeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.qianliu.structural.facade">
+    <entry file="uml://JAVA/com.qianliu.structural.flyweight">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>com.qianliu.structural.facade</OriginalElement>
+          <OriginalElement>com.qianliu.structural.flyweight</OriginalElement>
           <nodes>
-            <node x="494.45833333333326" y="426.0">com.qianliu.structural.facade.Test</node>
-            <node x="546.2386363636364" y="0.0">com.qianliu.structural.facade.PointGift</node>
-            <node x="0.0" y="138.0">com.qianliu.structural.facade.QualifyService</node>
-            <node x="260.99999999999994" y="138.0">com.qianliu.structural.facade.PointPaymentService</node>
-            <node x="478.99999999999994" y="138.0">com.qianliu.structural.facade.ShippingService</node>
-            <node x="251.99999999999994" y="252.0">com.qianliu.structural.facade.GiftExchangeService</node>
+            <node x="" y="">com.qianliu.structural.flyweight.Test</node>
+            <node x="" y="">com.qianliu.structural.flyweight.Manager</node>
+            <node x="" y="">com.qianliu.structural.flyweight.EmployeeFactory</node>
+            <node x="" y="">com.qianliu.structural.flyweight.Employee</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.qianliu.structural.facade.GiftExchangeService" target="com.qianliu.structural.facade.QualifyService">
-              <point x="-90.0" y="-62.0" />
-              <point x="319.49999999999994" y="222.0" />
-              <point x="180.75" y="222.0" />
-              <point x="60.25" y="27.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.GiftExchangeService" target="com.qianliu.structural.facade.ShippingService">
-              <point x="45.0" y="-62.0" />
-              <point x="454.49999999999994" y="212.0" />
-              <point x="531.5" y="212.0" />
-              <point x="-52.5" y="27.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.Test" target="com.qianliu.structural.facade.GiftExchangeService">
-              <point x="-65.625" y="-27.0" />
-              <point x="516.3333333333333" y="406.0" />
-              <point x="330.74999999999994" y="406.0" />
-              <point x="-78.75" y="62.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.PointPaymentService" target="com.qianliu.structural.facade.PointGift">
-              <point x="0.0" y="-27.0" />
-              <point x="359.99999999999994" y="108.0" />
-              <point x="587.2386363636364" y="108.0" />
-              <point x="-41.0" y="39.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.GiftExchangeService" target="com.qianliu.structural.facade.PointGift">
-              <point x="135.0" y="-62.0" />
-              <point x="544.5" y="232.0" />
-              <point x="699.5" y="232.0" />
-              <point x="699.5" y="118.0" />
-              <point x="641.905303030303" y="118.0" />
-              <point x="13.666666666666629" y="39.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.GiftExchangeService" target="com.qianliu.structural.facade.PointPaymentService">
-              <point x="0.0" y="-62.0" />
-              <point x="49.5" y="27.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.Test" target="com.qianliu.structural.facade.PointGift">
-              <point x="21.875" y="-27.0" />
-              <point x="603.8333333333333" y="396.0" />
-              <point x="710.5" y="396.0" />
-              <point x="710.5" y="108.0" />
-              <point x="669.2386363636364" y="108.0" />
-              <point x="41.0" y="39.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.QualifyService" target="com.qianliu.structural.facade.PointGift">
-              <point x="0.0" y="-27.0" />
-              <point x="120.5" y="98.0" />
-              <point x="559.905303030303" y="98.0" />
-              <point x="-68.33333333333337" y="39.0" />
-            </edge>
-            <edge source="com.qianliu.structural.facade.ShippingService" target="com.qianliu.structural.facade.PointGift">
-              <point x="0.0" y="-27.0" />
-              <point x="584.0" y="118.0" />
-              <point x="614.5719696969697" y="118.0" />
-              <point x="-13.666666666666629" y="39.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="373.5" y="240.5" />
-          <SelectedNodes>
-            <node>com.qianliu.structural.facade.Test</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="179.0" y="255.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
             <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/facade/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/EmployeeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/flyweight/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CatalogComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/CourseCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" selection-start-line="5" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/composite/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Battercake.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/SavingAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="304">
+          <caret line="18" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+    <entry file="uml://JAVA/com.qianliu.structural.bridge">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.qianliu.structural.bridge</OriginalElement>
+          <nodes>
+            <node x="0.0" y="128.0">com.qianliu.structural.bridge.ICBCBank</node>
+            <node x="0.0" y="378.0">com.qianliu.structural.bridge.SavingAccount</node>
+            <node x="0.0" y="500.0">com.qianliu.structural.bridge.Test</node>
+            <node x="115.0" y="251.0">com.qianliu.structural.bridge.Account</node>
+            <node x="230.0" y="378.0">com.qianliu.structural.bridge.DepositAccount</node>
+            <node x="112.0" y="0.0">com.qianliu.structural.bridge.Bank</node>
+            <node x="224.0" y="128.0">com.qianliu.structural.bridge.ABCBank</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.qianliu.structural.bridge.ICBCBank" target="com.qianliu.structural.bridge.Bank">
+              <point x="0.0" y="-39.0" />
+              <point x="102.0" y="103.0" />
+              <point x="163.0" y="103.0" />
+              <point x="-51.0" y="39.0" />
+            </edge>
+            <edge source="com.qianliu.structural.bridge.DepositAccount" target="com.qianliu.structural.bridge.Account">
+              <point x="0.0" y="-38.5" />
+              <point x="335.0" y="353.0" />
+              <point x="272.5" y="353.0" />
+              <point x="52.5" y="38.5" />
+            </edge>
+            <edge source="com.qianliu.structural.bridge.SavingAccount" target="com.qianliu.structural.bridge.Account">
+              <point x="0.0" y="-38.5" />
+              <point x="105.0" y="353.0" />
+              <point x="167.5" y="353.0" />
+              <point x="-52.5" y="38.5" />
+            </edge>
+            <edge source="com.qianliu.structural.bridge.ABCBank" target="com.qianliu.structural.bridge.Bank">
+              <point x="0.0" y="-39.0" />
+              <point x="326.0" y="103.0" />
+              <point x="265.0" y="103.0" />
+              <point x="51.0" y="39.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-81.0" y="237.0" />
+          <SelectedNodes>
+            <node>com.qianliu.structural.bridge.Account</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/BattercakeWithEggSausage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ABCBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/decorator/v1/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="114">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/DepositAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/ICBCBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/bridge/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.qianliu.structural.proxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.qianliu.structural.proxy</OriginalElement>
+          <nodes>
+            <node x="" y="">com.qianliu.structural.proxy.staticproxy.Test</node>
+            <node x="" y="">com.qianliu.structural.proxy.IOrderDao</node>
+            <node x="" y="">com.qianliu.structural.proxy.IOrderService</node>
+            <node x="" y="">com.qianliu.structural.proxy.staticproxy.OrderServiceStaticProxy</node>
+            <node x="" y="">com.qianliu.structural.proxy.Order</node>
+            <node x="" y="">com.qianliu.structural.proxy.db.DynamicDataSource</node>
+            <node x="" y="">com.qianliu.structural.proxy.OrderServiceImpl</node>
+            <node x="" y="">com.qianliu.structural.proxy.OrderDaoImpl</node>
+            <node x="" y="">com.qianliu.structural.proxy.db.DataSourceContextHolder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="436.0" y="558.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/ref/ReferenceQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Modifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/db/DataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3015">
+          <caret line="2336" selection-start-line="2336" selection-end-line="2336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/event/EventListenerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="128" column="44" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/staticproxy/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="332" column="34" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="497" column="28" selection-start-line="497" selection-start-column="25" selection-end-line="497" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/spi/orbutil/proxy/CompositeInvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/spi/orbutil/proxy/LinkedInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="171" column="23" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/dynamicproxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianliu/structural/proxy/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>

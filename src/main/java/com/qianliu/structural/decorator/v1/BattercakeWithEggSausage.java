@@ -1,6 +1,8 @@
 package com.qianliu.structural.decorator.v1;
 
-
+/**
+ * 鸡蛋火腿煎饼
+ */
 public class BattercakeWithEggSausage extends BattercakeWithEgg {
     @Override
     public String getDesc() {
